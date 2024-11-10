@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Multiplication
+    </title>
+</head>
+
+<body>
+    <center>
+        <p>Click the button bellow</p>
+        <button type="button" onclick="myFunction()" id="id">Click here</button>
+
+    </center>
+
+    <script>
+        function myFunction(x, y) {
+            if (x === undefined) {
+                x = 4;
+            }
+            if (y === undefined) {
+                y = 52;
+            }
+            return x * y;
+        }
+
+        document.getElementById("id").innerHTML = myFunction();
+    </script>
+</body>
+
+</html>
